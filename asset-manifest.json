@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/redux-movie-test/static/css/main.88c82436.chunk.css",
-    "main.js": "/redux-movie-test/static/js/main.7f6f1d67.chunk.js",
-    "main.js.map": "/redux-movie-test/static/js/main.7f6f1d67.chunk.js.map",
-    "runtime-main.js": "/redux-movie-test/static/js/runtime-main.629bc7c6.js",
-    "runtime-main.js.map": "/redux-movie-test/static/js/runtime-main.629bc7c6.js.map",
-    "static/js/2.1bda37a5.chunk.js": "/redux-movie-test/static/js/2.1bda37a5.chunk.js",
-    "static/js/2.1bda37a5.chunk.js.map": "/redux-movie-test/static/js/2.1bda37a5.chunk.js.map",
-    "static/js/3.4aa001c1.chunk.js": "/redux-movie-test/static/js/3.4aa001c1.chunk.js",
-    "static/js/3.4aa001c1.chunk.js.map": "/redux-movie-test/static/js/3.4aa001c1.chunk.js.map",
+    "main.js": "/redux-movie-test/static/js/main.bda837bb.chunk.js",
+    "main.js.map": "/redux-movie-test/static/js/main.bda837bb.chunk.js.map",
+    "runtime-main.js": "/redux-movie-test/static/js/runtime-main.a9871d97.js",
+    "runtime-main.js.map": "/redux-movie-test/static/js/runtime-main.a9871d97.js.map",
+    "static/css/2.4bd79e09.chunk.css": "/redux-movie-test/static/css/2.4bd79e09.chunk.css",
+    "static/js/2.c9bc191a.chunk.js": "/redux-movie-test/static/js/2.c9bc191a.chunk.js",
+    "static/js/2.c9bc191a.chunk.js.map": "/redux-movie-test/static/js/2.c9bc191a.chunk.js.map",
+    "static/js/3.9048b693.chunk.js": "/redux-movie-test/static/js/3.9048b693.chunk.js",
+    "static/js/3.9048b693.chunk.js.map": "/redux-movie-test/static/js/3.9048b693.chunk.js.map",
     "index.html": "/redux-movie-test/index.html",
+    "static/css/2.4bd79e09.chunk.css.map": "/redux-movie-test/static/css/2.4bd79e09.chunk.css.map",
     "static/css/main.88c82436.chunk.css.map": "/redux-movie-test/static/css/main.88c82436.chunk.css.map",
-    "static/js/2.1bda37a5.chunk.js.LICENSE.txt": "/redux-movie-test/static/js/2.1bda37a5.chunk.js.LICENSE.txt"
+    "static/js/2.c9bc191a.chunk.js.LICENSE.txt": "/redux-movie-test/static/js/2.c9bc191a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.629bc7c6.js",
-    "static/js/2.1bda37a5.chunk.js",
+    "static/js/runtime-main.a9871d97.js",
+    "static/css/2.4bd79e09.chunk.css",
+    "static/js/2.c9bc191a.chunk.js",
     "static/css/main.88c82436.chunk.css",
-    "static/js/main.7f6f1d67.chunk.js"
+    "static/js/main.bda837bb.chunk.js"
   ]
 }
