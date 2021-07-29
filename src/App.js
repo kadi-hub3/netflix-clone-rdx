@@ -1,17 +1,12 @@
-import Header from "./components/Header/Header";
-import MovieSlider from "./components/Swiper/Slider";
-import { Provider } from "react-redux";
-import store from "./store";
+import { Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
 import "./App.css";
 
 function App() {
   return (
-    <Provider store={store}>
-      <div className="App">
-        {/* <Header /> */}
-        <MovieSlider />
-      </div>
-    </Provider>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
   );
 }
 

@@ -1,58 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { StyledHeader } from "./Header.styles";
-// import { NavLink } from "react-router-dom";
-// import SearchBar from "../SearchBar/SearchBar";
 
 const Header = () => {
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    const getData = async () => {
+      const res = await fetch(
+        "https://api.themoviedb.org/3/movie/popular?api_key=636c2a5775bc858d533ffec5b0eb61d9"
+      );
+      const json = await res.json();
+      console.log(json);
+      setMovies(json);
+    };
+    getData();
+  }, []);
   return (
     <StyledHeader>
-      <div className="header">
-        header
-        {/* <div className="lingo">
-          <NavLink to="/us" activeClassName="active">
-            U.S.
-          </NavLink>
-          <NavLink to="/world" activeClassName="active">
-            INTERNATIONAL
-          </NavLink>
-          <NavLink to="/sundayreview" activeClassName="active">
-            Sunday Review
-          </NavLink>
-        </div>
-        <div className="title">
-          <h4>{date}</h4>
-          <NavLink to="/">
-            <h1>the la times</h1>
-          </NavLink>
-          <h4>
-            <WeatherIcon />
-          </h4>
-        </div>
-        <SearchBar />
-        <div className="categories">
-          <NavLink to="/politics" activeClassName="active">
-            politics
-          </NavLink>
-          <NavLink to="/et" activeClassName="active">
-            entertainment
-          </NavLink>
-          <NavLink to="/arts" activeClassName="active">
-            arts
-          </NavLink>
-          <NavLink to="/health" activeClassName="active">
-            health
-          </NavLink>
-          <NavLink to="/science" activeClassName="active">
-            science
-          </NavLink>
-          <NavLink to="/travel" activeClassName="active">
-            travel
-          </NavLink>
-          <NavLink to="/tech" activeClassName="active">
-            tech
-          </NavLink>
-        </div> */}
-      </div>
+      <div className="header"></div>
     </StyledHeader>
   );
 };
