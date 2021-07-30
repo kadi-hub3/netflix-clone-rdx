@@ -23,7 +23,7 @@ const Nav = () => {
           <img src={process.env.PUBLIC_URL + "/logo.svg"} alt="logo" />
           <h3>Browse</h3>
           <ul>
-            <NavLink to="/home" activeClassName="active">
+            <NavLink to="/" activeClassName="active">
               Home
             </NavLink>
             <NavLink to="/tv-shows" activeClassName="active">

@@ -8,7 +8,7 @@ import "swiper/components/navigation/navigation.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={"/redux-movie-test"}>
       <App />
     </Router>
   </React.StrictMode>,
